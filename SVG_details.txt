@@ -17,6 +17,7 @@
 	     xmlns:xlink = "http://www.w3.org/1999/xlink" 
 	     width="100%" height="100%"> 
 
+	<svg/>
 
 - Este cabeçalho deve ser colocado na primeira linha e coluna do documento.
 - A tag svg é o elemento raiz.
@@ -27,4 +28,14 @@
 		http://www.w3.org/1999/xlink.
 	width/height;
 		definem a área na tela da sua svg.
+
+
+- SVG é um modelo xml, logo deve ter tags de inicio e fechamento corretamente aninhadas.
+
+
+- Para vincular um código CSS ao SVG,obedecendo as definição do XML :
+
+	<?xsl-stylesheet type="text/css" hred="estilo.css" ?>
+
+
 	

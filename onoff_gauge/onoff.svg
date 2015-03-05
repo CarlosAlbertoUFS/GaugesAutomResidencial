@@ -1,11 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" 					
 				 xmlns:xlink = "http://www.w3.org/1999/xlink" 
-				 width="100%" height="100%">
+				 width="100%" height="100%" >
 				
 				<script type= "text/ecmascript" xlink:href="event.js"/>
 				<!--Ligando o evento do java script-->
 				<!--codigo do svg-->
-				<circle r ="80" cx = "100" cy = "100" fill = "blue" stroke = "green" stroke-width = "20" onclick= "changeColor(event)"/>
 				
-			
+				<path d = "M300,200 l -100,0  
+				a 100,100 0 1,0 100,-100 z"
+				fill = "yellow" stroke="blue"/>
+				
+				<circle r ="80" cx = "300" cy = "200" 
+				fill = "blue" stroke = "green" stroke-width = "20" 
+				onclick= "changeColor(event)"/>
+				
+				
 			</svg>
